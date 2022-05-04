@@ -1,0 +1,125 @@
+.faviconi{
+	width: 40%;
+	align: middle;
+}
+
+#rights{
+	background-color: #262626;
+	font-size: 100%;
+	text-align: center;
+	color: white;
+	margin-bottom: 0%;
+	margin-top: 2%;
+}
+
+#divfacebook1{
+	height: 60px;
+	width: 60px;
+	margin: auto;
+}
+
+#facebook1{
+	height 100%;
+	width: 100%;
+}
+
+#divfacebook1 {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+#divfacebook1:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.podijelislika{
+	height: 60px;
+	width: 60px;
+	margin: auto;
+	margin-top: 2%;
+	margin-left: 1%;
+	  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.podijelislika:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#događaji{
+	background-color: pink;
+	margin-left: 5%;
+	margin-right: 5%;
+	max-width:90%;
+	max-height: auto; 
+	float: center;
+}
+
+.događaj1{
+	max-width: 60%;
+	max-height: 100%;
+	float: left;
+}
+
+.bg-mrak{
+	
+}background-color: #3e8e41;}
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  padding: 0px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
